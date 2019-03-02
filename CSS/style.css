@@ -1,0 +1,338 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.header {
+	background-color: #40596B;
+	width: 100%;
+	height: 60px;
+}
+
+/*Container for menu*/
+.headerNav {
+	display: flex;
+	justify-content: center;
+	padding-top: 16px;
+}
+
+.headerNav a {
+    font-family: 'Signika', sans-serif;
+    color: #FFD05B;
+    font-size: 20px;  
+    font-weight: 300;
+    text-decoration: none; 
+	padding-right: 16px;
+}
+
+.headerNav a:hover {
+	color: #FFF;
+}
+
+/*Container for section*/
+.home {
+	display: flex;
+	align-items: center;
+	background-color: #55C0EC;
+	height: 460px;
+}
+
+/*Container for elements*/
+.homeContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+	width: 100%;
+	height: 440px;
+}
+
+.leftHome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	width: 500px;
+	height: 280px;
+	margin: 20px;
+}
+
+.pHome {
+	position: relative;
+	font-family: 'Signika', sans-serif;
+	font-size: 27px;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
+}
+
+.rightHome img {
+	width: 407px;
+	height: 402px;
+}
+
+h1 {
+	font-family: 'Signika', sans-serif;
+	font-size: 4.7em;
+	font-weight: 300;
+	color: #224D5E;
+	letter-spacing: -4px;
+}
+
+h1 span {
+	font-family: 'Signika', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #224D5E;
+}
+
+h2 {
+	font-family: 'Signika', sans-serif;
+	font-size: 2.3em;
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #3F3F3F;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*This is the blue line under h2s*/
+hr {
+	background-color: #55c0ec;
+	width: 160px;
+	height: 3px;
+	border: 0;
+	padding: 0; 
+	margin: 0 auto;
+}
+
+/*Container for section*/
+.about {
+	display: flex;
+	align-items: center;
+	background-color: #FAFAFA;
+	min-height: 400px;
+}
+
+/*Container for elements*/
+.flexAbout {
+	margin: 0 auto;
+	max-width: 1160px;
+	height: 370px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.flexAbout p {
+	font-family: 'Signika', sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+	color: #3F3F3F;
+	text-align: left;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+.flexAbout img {
+	width: 20px;
+	height: 16px;
+}
+
+/*Container for paragraphs columns*/
+.twoBlocks {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.twoBlocks p {
+	max-width: 545px;
+}
+
+/*Container for section*/
+.features {
+	padding-top: 10px;
+	background-color: #90DDAA;
+	min-height: 400px;
+}
+
+/*Container for 3 boxes only*/
+.featuresContainer {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1170px;
+	height: 605px;
+	padding: 0;
+}
+
+/*Individual DarkBlue boxes*/
+.featureBox {
+	margin: 0;
+	background-color: #40596B;
+	height: 490px;
+	max-width: 357px;
+	min-width: 230px;
+	border-radius: 5px;
+}
+
+/*Inside box blue on top*/
+.featureTop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+
+/*Inside box content at bottom*/
+.bottomBox {
+	background-color: rgba(255, 255, 255, 0.97);
+	height: 140px;
+}
+
+.bottomBox p {
+	font-family: 'Signika', sans-serif;
+	font-size: 1.24em;
+	font-weight: 300;
+	color: #3F3F3F;
+	text-align: center;
+	padding: 20px;
+	line-height: 1.5;
+}
+
+/*This is for all the icons inside blue boxes*/
+.featureTop img {
+	width: 224px;
+	height: 224px;
+}
+
+/*Span tags inside blue boxes text content*/
+.tags {
+	background-color: #EDEDED;
+	font-family: monospace;
+	font-size: 1em;
+	font-weight: 300;
+	color: #DD254A;
+}
+
+/*Container for section and title*/
+.ATS {
+	background-color: #FAFAFA;
+	height: 530px;
+}
+
+.ATS h2 {
+	margin-top: 20px;
+}
+
+/*Container for elements*/
+.ATSContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	max-width: 570px;
+	height: 490px;
+}
+
+.ATSContainer p {
+	font-family: 'Signika', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #3F3F3F;
+	text-align: center;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #40596B;
+	height: 100px;
+	padding-top: 20px;
+}
+
+footer p {
+	font-family: 'Signika', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #CFD5DA;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.buttonTop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 4px;
+	width: 50px;
+	height: 48px;
+	background-color: #FFD05A;
+}
+
+.buttonTop img {
+	padding: 0;
+	width: 32px;
+	height: 32px;
+}
+
+a strong {
+	font-family: 'Signika', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.button1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	background-color: #FFF;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Signika', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	color: #595D5E; 
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.button1 img {
+	width: 40px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.button2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	background-color: #40596B;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Signika', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	color: rgba(255, 255, 255, 0.97); 
+	text-decoration: none;
+	padding-right: 25px;
+}
+
+.button2 img {
+	width: 40px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
