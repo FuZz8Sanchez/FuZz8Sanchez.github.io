@@ -264,6 +264,12 @@ footer p {
 	line-height: 1.5;
 }
 
+footer a {
+	text-decoration: none;
+	color: #CFD5DA;
+	font-weight: 600;
+}
+
 .buttonTop {
 	display: flex;
 	justify-content: center;
