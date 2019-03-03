@@ -249,6 +249,11 @@ hr {
 	line-height: 1.5;
 }
 
+.footerBox {
+	position: relative;
+	z-index: 1;
+}
+
 footer {
 	background-color: #40596B;
 	height: 100px;
@@ -271,6 +276,10 @@ footer a {
 }
 
 .buttonTop {
+	position: absolute;
+	z-index: 2;
+	right: 16px;
+	top: 16px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
